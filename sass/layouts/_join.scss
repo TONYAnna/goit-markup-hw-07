@@ -36,9 +36,9 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.join__link:hover,
-.join__link:focus {
-    background-color: var(--logo-cl);
+    &:hover,
+    &:focus {
+        background-color: var(--logo-cl);
+    }
 }

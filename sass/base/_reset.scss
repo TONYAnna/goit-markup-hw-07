@@ -29,6 +29,11 @@ img {
     color: currentColor;
     display: flex;
     align-items: center;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
 }
 
 

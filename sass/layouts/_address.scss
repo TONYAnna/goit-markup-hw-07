@@ -23,18 +23,27 @@
     margin-bottom: 9px;
 }
 
-.address__mail,
+.address__mail{
+    color: rgba(255, 255, 255, 0.6);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--accent-txt-cl);
+        }
+}
+
 .address__tel {
     color: rgba(255, 255, 255, 0.6);
 
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__mail:hover,
-.address__mail:focus,
-.address__tel:hover,
-.address_tel:focus {
-    color: var(--accent-txt-cl);
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+    }
 }

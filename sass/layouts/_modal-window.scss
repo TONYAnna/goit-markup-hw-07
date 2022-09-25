@@ -54,6 +54,10 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus-within .user-icon {
+        fill: var(--accent-txt-cl);
+    }
 }
 
 .register__user {
@@ -79,11 +83,11 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
-}
 
-.register__box:focus {
-    border-color: var(--accent-txt-cl);
-    outline: none;
+    &:focus {
+        border-color: var(--accent-txt-cl);
+        outline: none;
+    }
 }
 
 .register__icon {
@@ -95,11 +99,6 @@
 .register__form-com {
     margin-bottom: 20px;
 }
-
-.register__form:focus-within .user-icon {
-    fill: var(--accent-txt-cl);
-}
-
 
 .register__commit {
     display: block;
@@ -114,16 +113,17 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .register__commit:focus {
+        border-color: var(--accent-txt-cl);
+        outline: none;
+    }
 }
 
-.register__commit:focus {
-    border-color: var(--accent-txt-cl);
-    outline: none;
-}
-
-
-textarea::placeholder {
-    position: absolute;
+textarea {
+    &::placeholder {
+            position: absolute;
+        }
 }
 
 .register__click {
@@ -146,28 +146,34 @@ textarea::placeholder {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     appearance: none;
+
+    &:checked+&-icon &-use {
+        opacity: 0;
+    }
+
+    &:checked+&-icon .register__check-use {
+        opacity: 1;
+    }
 }
 
 .register__checkbox-icon {
     margin-right: 8px;
+
+    &:focus .register__checkbox-use {
+        opacity: 0;
+    }
+
+    &:focus .register__check-use {
+        opacity: 1;
+    }
 }
 
 .register__ckeckbox-use {
     opacity: 1;
 }
 
-.register__checkbox:checked+.register__checkbox-icon .register__checkbox-use,
-.register__checkbox-icon:focus .register__checkbox-use {
-    opacity: 0;
-}
-
 .register__check-use {
     opacity: 0;
-}
-
-.register__checkbox:checked+.register__checkbox-icon .register__check-use,
-.register__checkbox-icon:focus .register__check-use {
-    opacity: 1;
 }
 
 .register__checkbox-link {
