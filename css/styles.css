@@ -72,7 +72,7 @@ ul {
     padding: 0;
 } */
 
-/*Header*/
+/* Header
 
 .header {
     background-color: var(--light-txt-cl);
@@ -132,10 +132,10 @@ ul {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
-/*nav*/
+/* nav
 
 .nav {
     display: flex;
@@ -167,7 +167,7 @@ ul {
 .link:hover,
 .link:focus {
     color: var(--accent-txt-cl);
-}
+} */
 
 
 /*logo*/
@@ -189,7 +189,7 @@ ul {
 
 /*Main*/
 
-/*Hero*/
+/* Hero
 
 .hero {
     margin-left: auto;
@@ -236,9 +236,9 @@ ul {
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+} */
 
-/*Features*/
+/* Features
 
 .visually-hidden {
     position: absolute;
@@ -289,9 +289,9 @@ ul {
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--txt-cl);
-}
+} */
 
-/*Work-Process*/
+/* Work-Process
 .work-process__title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -329,9 +329,9 @@ ul {
     background: rgba(47, 48, 58, 0.8);
     padding-top: 27px;
     padding-bottom: 27px;
-}
+} */
 
-/*Team*/
+/* Team
 .team {
     background-color: var(--bgcl-icon-cl);
 }
@@ -415,9 +415,9 @@ ul {
 .team__link:focus {
     color: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
-}
+} */
 
-/*Customers*/
+/* Customers
 
 .customers__title {
     margin-bottom: 50px;
@@ -466,11 +466,11 @@ ul {
 .customers__link:hover,
 .customers__link:focus {
     border-color: var(--accent-txt-cl);
-}
+} */
 
 /*Main Portfolio*/
 
-/*Btns*/
+/* Btns
 
 .btn__list {
     gap: 8px;
@@ -512,9 +512,9 @@ ul {
     color: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-/*Variation*/
+/* Variation
 
 .variation__list {
     display: flex;
@@ -584,9 +584,9 @@ ul {
     letter-spacing: 0.03em;
     color: var(--txt-cl)
 }
+ */
 
-
-/*Footer*/
+/* Footer
 
 .footer {
     background-color: var(--second-bg-cl);
@@ -598,9 +598,9 @@ ul {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-}
+} */
 
-/*Address*/
+/* Address
 
 .address {
     color: var(--light-txt-cl)
@@ -617,7 +617,7 @@ ul {
     display: block;
 } */
 
-.address__studio {
+/* .address__studio {
     color: var(--light-txt-cl)
 }
 
@@ -650,9 +650,9 @@ ul {
 .address__tel:hover,
 .address_tel:focus {
     color: var(--accent-txt-cl);
-}
+} */ 
 
-/*Join*/
+/* Join
 
 .join__name {
     width: 116px;
@@ -695,9 +695,9 @@ ul {
 .join__link:hover,
 .join__link:focus {
     background-color: var(--logo-cl);
-}
+} */
 
-/*Telegram*/
+/* Telegram
 .telegram__register {
     display: flex;
     align-items: flex-end;
@@ -718,9 +718,9 @@ ul {
 .telegram__mail {
     display: block;
     margin-right: 12px;
-}
+} */
 
-.telegram__name {
+/* .telegram__name {
     display: block;
     margin-bottom: 20px;
     font-style: normal;
@@ -755,14 +755,14 @@ ul {
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.telegram__btn:hover,
+/* .telegram__btn:hover,
 .telegram__btn:focus {
     background-color: var(--btn-bg-cl);
-}
+} */
 
-.telegram__form::placeholder {
+/* .telegram__form::placeholder {
     padding-top: 15px;
     font-style: normal;
     font-weight: 400;
@@ -772,13 +772,13 @@ ul {
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.telegram__icon {
+/* .telegram__icon {
     margin-left: 10px;
-}
+} */
 
-/*Modal Window*/
+/* Modal Window
 
 .backdrop {
     position: fixed;
@@ -825,10 +825,10 @@ ul {
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     margin-bottom: 12px;
-}
+} */
 /*Btn start*/
 
-.modal__btn {
+/* .modal__btn {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -853,11 +853,11 @@ ul {
 .modal__btn:hover .modal__btn-icon,
 .modal__btn:focus .modal__btn-icon {
     fill: var(--accent-txt-cl);
-}
+} */
 
 /*Form*/
 
-.register__form {
+/* .register__form {
     margin-bottom: 10px;
     display: block;
 
@@ -983,11 +983,11 @@ textarea::placeholder {
 .register__checkbox-link {
     margin-left: 0.3em;
     color: var(--accent-txt-cl);
-}
+} */
 
 /*Btn end*/
 
-.modal__submit-btn {
+/* .modal__submit-btn {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1016,4 +1016,4 @@ textarea::placeholder {
 .modal__submit-btn:hover,
 .modal__submit-btn:focus {
     background-color: var(--btn-bg-cl);
-}
+} */

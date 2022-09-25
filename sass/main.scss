@@ -1,3 +1,33 @@
+/*Utils*/
 @import "./utils/variables";
+/*Base*/
 @import "./base/reset";
+/*Components*/
 @import "./components/logo";
+/*Layouts*/
+/*Header*/
+@import "./layouts/header";
+@import "./layouts/header-nav";
+
+/*Btn*/
+@import "./components/btn-main";
+@import "./components/btn-submit";
+
+/*Main Contain*/
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/work-process";
+@import "./layouts/team";
+@import "./layouts/customers";
+
+/*Main Portfolio*/
+@import "./layouts/variation";
+
+/*Footer*/
+@import "./layouts/footer";
+@import "./layouts/address";
+@import "./layouts/join";
+@import "./layouts/telegram";
+
+/*Modal Window*/
+@import "./layouts/modal-window";
