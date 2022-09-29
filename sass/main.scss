@@ -2,16 +2,27 @@
 @import "./utils/variables";
 /*Base*/
 @import "./base/reset";
+@import "./base/body";
+
 /*Components*/
 @import "./components/logo";
-/*Layouts*/
-/*Header*/
-@import "./layouts/header";
-@import "./layouts/header-nav";
+@import "./components/address";
+@import "./components/header-nav";
+@import "./components/header";
+
+/*Footer*/
+@import "./components/footer";
+@import "./components/join";
+@import "./components/telegram";
+
+/*Modal Window*/
+@import "./components/modal-window";
 
 /*Btn*/
 @import "./components/btn-main";
 @import "./components/btn-submit";
+
+/*Layouts*/
 
 /*Main Contain*/
 @import "./layouts/hero";
@@ -22,12 +33,3 @@
 
 /*Main Portfolio*/
 @import "./layouts/variation";
-
-/*Footer*/
-@import "./layouts/footer";
-@import "./layouts/address";
-@import "./layouts/join";
-@import "./layouts/telegram";
-
-/*Modal Window*/
-@import "./layouts/modal-window";
